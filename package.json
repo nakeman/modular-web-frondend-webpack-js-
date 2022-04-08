@@ -1,0 +1,32 @@
+{
+  "name": "modular-web-frontend-webpack-js",
+  "version": "1.0.0",
+  "description": "modular-web-frontend-webpack-js",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nakeman/modular-web-frontend-webpack-js.git"
+  },
+  "keywords": [
+    "web",
+    "webpack"
+  ],
+  "author": "Kemin lau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nakeman/modular-web-frontend-webpack-js/issues"
+  },
+  "homepage": "https://github.com/nakeman/modular-web-frontend-webpack-js#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}
