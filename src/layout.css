@@ -18,3 +18,9 @@ button{
     width: 100%;
     display: block;
 }
+img.logo{
+    width: 50%;
+}
+#logobox {
+    text-align: center;
+}

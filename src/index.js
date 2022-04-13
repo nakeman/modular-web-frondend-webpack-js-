@@ -1,5 +1,8 @@
-import Container from './app.js'
+import ReactDOM from 'react-dom';
+// import hello_react from './hello-react.jsx'
+import Container from "./LayoutV.jsx";
 
-// Append Greeting node to the DOM
 const approot = document.querySelector('#root')
-approot.append(Container)
+// approot.append(Container)
+// ReactDOM.render(<Container />,approot);
+ReactDOM.render(Container(),approot);
